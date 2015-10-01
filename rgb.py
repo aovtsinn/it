@@ -4,7 +4,7 @@
 #
 # Usage:
 #   sudo python rgb.py [color]
-#
+# 
 # @author Jeff Geerling, 2015
 
 import argparse
