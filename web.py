@@ -36,7 +36,7 @@ def simple_app(env, start_response):
     elif env["PATH_INFO"] == "/blink":
         print("user asked for /blink")
         blinker = subprocess.Popen(["python", "blink.py"])
-        return "OMG blinking!!"
+        return "OMG blinking!! OMG Robin is awesome"
     
     else:
         print("user asked for something else")
