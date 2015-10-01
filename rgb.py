@@ -1,5 +1,5 @@
 #! /usr/bin/env python
-#
+# 
 # Set an RGB LED to either red, green, or blue.
 #
 # Usage:
