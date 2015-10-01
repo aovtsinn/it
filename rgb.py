@@ -6,6 +6,8 @@
 #   sudo python rgb.py [color]
 # 
 # @author Jeff Geerling, 2015
+# 
+# Artur added a comment
 
 import argparse
 import RPi.GPIO as GPIO
