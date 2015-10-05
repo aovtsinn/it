@@ -19,9 +19,9 @@ parser.add_argument('color', metavar='color', type=str, nargs=1,
 args = parser.parse_args()
 
 # LED pin mapping.
-red = 27
-green = 10
-blue = 20
+red = 10
+green = 20
+blue = 27
 
 # GPIO Setup.
 GPIO.setmode(GPIO.BCM)
@@ -43,3 +43,10 @@ elif args.color[0] == 'green':
   GPIO.output(green, 1)
 elif args.color[0] == 'blue':
   GPIO.output(blue, 1)
+elif args.color[0] == 'yellow':
+  GPIO.output(red, 0)
+  GPIO.output(blue, 0)
+elif args.color[0] == 'white':
+  GPIO.output(red, 0)
+  GPIO.output(blue, 0)
+  GPIO.output(green, 0) 
