@@ -1,4 +1,4 @@
-# make_server is used to create this simple python webserver
+# working make_server is used to create this simple python webserver
 from wsgiref.simple_server import make_server
 import subprocess
 # import Raspberry Pi gpio support into python
